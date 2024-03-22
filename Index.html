@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Canvas">
+        <div class="Container">
+            <div class="InputContainer">
+                <input placeholder="0" id="InputValue" type="text" readonly><br>
+            </div>
+            <div class="Buttons">
+                <button class="Refresh" onclick="Refresh()">C</button>
+                <button class="A" onclick="Divide()">/</button><br>
+                <button onclick="AddValue(7)">7</button>
+                <button onclick="AddValue(8)">8</button>
+                <button onclick="AddValue(9)">9</button>
+                <button class="A" onclick="Multiple()">*</button><br>
+                <button onclick="AddValue(4)">4</button>
+                <button onclick="AddValue(5)">5</button>
+                <button onclick="AddValue(6)">6</button>
+                <button class="A" onclick="Minus()">-</button><br>
+                <button onclick="AddValue(1)">1</button>
+                <button onclick="AddValue(2)">2</button>
+                <button onclick="AddValue(3)">3</button>
+                <button class="A" onclick="Plus()">+</button><br>
+                <button class="Zero" onclick="AddValue(0)">0</button>
+                <button class="A" onclick="Equals()">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
